@@ -51,7 +51,11 @@ h5{
   border-radius: 24px;
   cursor: pointer;
 }
-
+button{
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 0.2rem;
+}
 .bg-primary {
   background-color: #25274d !important;
 }
@@ -370,7 +374,7 @@ body {
   border-radius: 50%
 }
 
-.box1 .icon li a:hover {
+.box1 .icon li button:hover {
   color: #fff;
   box-shadow: 0 0 10px #000 inset, 0 0 0 3px #fff
 }
